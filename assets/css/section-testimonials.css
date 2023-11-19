@@ -1,6 +1,6 @@
-#testimonials {
+#testimonials .container {
     background: rgba(196, 196, 196, 0.24);
-    padding: 4rem 0;
+    padding: 4rem 5rem;
 }
 
 #testimonials .testimonial-container {
@@ -35,8 +35,9 @@
     align-items: center;
     transition: 0.3s;
 }
+
 #testimonials .testimonial-container [x-img] [x-play]:hover {
-    color:  rgba(255, 94, 0,0.8);
+    color: rgba(255, 94, 0, 0.8);
     transform: scale(1.1);
 }
 

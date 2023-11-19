@@ -1,9 +1,12 @@
 #newsletter {
-    padding: 2rem 0;
-    background: linear-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.35)),
-        url("../img/Subscribe.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#newsletter .container {
+    background: linear-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.35)),
+        url("../img/Subscribe.jpg");
+    padding: 4rem 5rem;
 }
 
 #newsletter [x-title] {
