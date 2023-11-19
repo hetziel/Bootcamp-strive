@@ -1,0 +1,23 @@
+#carousel-dishes .owl-dot span,
+#testimonials  .owl-dot span {
+    width: 14px;
+    height: 14px;
+    padding: 0;
+    background: #CECECE;
+    display: block;
+    outline: none;
+    font-family: var(--font-2);
+    color: white;
+    margin: 1px;
+    border-radius: 0;
+    box-shadow: 0 0 0px 2px inset #fff;
+    transition: .2s;
+}
+
+#carousel-dishes .owl-dot.active span,
+#testimonials .owl-dot.active span {
+    background: var(--app-primary) !important;
+    border: 2px solid var(--app-primary) !important;
+    box-shadow: 0px 0px 0px 1px #fff, 0 0 0px 1px inset #fff;
+
+}

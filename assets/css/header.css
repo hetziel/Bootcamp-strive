@@ -1,0 +1,21 @@
+#app-header {
+    height: 100px;
+    transition: 0.3s background-color, 0.3s color;
+}
+
+#app-header .app-nav-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#app-header[main] {
+    background-color: #fff;
+}
+
+@media (min-width: 768px) {
+    #app-header[main] .nav-link {
+        color: #000;
+
+    }
+}

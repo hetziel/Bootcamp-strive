@@ -1,0 +1,80 @@
+#best-sellers {
+    padding: 4rem 0;
+}
+
+.app-dish-card {
+    max-width: 236px;
+    display: inline-block;
+}
+
+.app-dish-card [x-img] {
+    position: relative;
+    height: 276px;
+    overflow: hidden;
+}
+
+.app-dish-card [x-price] {
+    background: var(--app-primary);
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    width: 100px;
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+}
+
+
+.app-dish-card [x-rating] {
+    color: var(--app-secondary);
+    position: absolute;
+    bottom: 0.25rem;
+    right: 0.25rem;
+    text-align: center;
+}
+
+.app-dish-card [x-rating] span>* {
+    transition: .2s transform;
+    cursor: pointer;
+}
+
+.app-dish-card [x-rating] span>*:hover {
+    transform: scale(1.2);
+}
+
+.app-dish-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 4s transform;
+}
+
+.app-dish-card:hover img {
+    transform: scale(1.1);
+}
+
+.app-dish-card [x-body] {
+    padding-top: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-dish-card [x-body] span {
+    padding-left: 1rem;
+    font-family: var(--font-2);
+}
+
+.app-dish-card [x-body] .app-btn {
+    padding: 5px 1rem;
+}
+
+#carousel-dishes .carousel-indicators,
+#carousel-dishes .owl-dots {
+    display: flex;
+    position: static;
+    margin: 1rem 0 0 0;
+    justify-content: end;
+
+}
+

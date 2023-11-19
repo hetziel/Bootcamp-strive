@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootCamp - About Us</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- owl-carousel -->
+    <link rel="stylesheet" href="./assets/vendor/owl.carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/vendor/owl.carousel/assets/owl.theme.default.min.css">
+
+    <!-- Vendor Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+    <!-- App Styles -->
+    <link rel="stylesheet" href="./assets/css/app.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="app-header">
+        <a class="navbar-brand app-brand" href="./index.html">
+            <img src="./assets/img/Logo Blanco.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./about-us.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./shop-by-category.html">Shop by Category</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html#menu">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./faqs.html">FAQ's</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact-us.html">Contact Us</a>
+                </li>
+            </ul>
+            <div class="app-nav-icons">
+                <ul class="navbar-nav ml-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="mailto:info@glamping.global"><i class="fa-solid fa-envelope"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://maps.app.goo.gl/efttEsjQbYFzjC7x9" target="_blank"><i
+                                class="fa-solid fa-location-dot"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tel:1-844-9345267"><i class="fa-solid fa-phone"></i></a>
+                    </li>
+                </ul>
+                <hr v>
+                <ul class="navbar-nav ml-2">
+                    <li class="nav-item">
+                        <a class="nav-link"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="app-shop-by-category mb-5">
+        <div class="container">
+            <div class="col-12 pb-5 text-md-left text-center">
+                <p class="main-title pb-5">
+                    <span>Shop by Category</span>
+                </p>
+                <p class="text-white">
+                    This is a section tailored to streamline the shopping experience by categorizing products into
+                    distinct sections. It enables customers to browse and select items based on their interests or
+                    requirements. This section provides a convenient and organized way for users to search for products,
+                    allowing them to swiftly locate what they seek among the diverse available options.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="page-shop-by-category" class="text-md-left text-center">
+        <div class="container">
+            <div class="row mb-4 ">
+
+                <div class="col-12 mb-5">
+                    <div class="btn-group">
+                        <button type="button" class="app-btn dropdown-toggle" data-toggle="dropdown"
+                            aria-expanded="false">
+                            Filter by
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Appetizers</a>
+                            <a class="dropdown-item" href="#">Main Courses</a>
+                            <a class="dropdown-item" href="#">Sides</a>
+                            <a class="dropdown-item" href="#">Desserts</a>
+                            <a class="dropdown-item" href="#">Drinks</a>
+                            <a class="dropdown-item" href="#">Kids Menu</a>
+                            <a class="dropdown-item" href="#">Chef's Specials</a>
+                            <a class="dropdown-item" href="#">Daily Specials</a>
+                        </div>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="app-btn dropdown-toggle" data-toggle="dropdown"
+                            aria-expanded="false">
+                            Short By
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#" data-value="manual">Featured</a>
+                            <a class="dropdown-item" href="#" data-value="best-selling" selected="selected">Best
+                                selling</a>
+                            <a class="dropdown-item" href="#" data-value="title-ascending">Alphabetically, A-Z</a>
+                            <a class="dropdown-item" href="#" data-value="title-descending">Alphabetically, Z-A</a>
+                            <a class="dropdown-item" href="#" data-value="price-ascending">Price, low to high</a>
+                            <a class="dropdown-item" href="#" data-value="price-descending">Price, high to low</a>
+                            <a class="dropdown-item" href="#" data-value="created-ascending">Date, old to new</a>
+                            <a class="dropdown-item" href="#" data-value="created-descending">Date, new to old</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 text-center">
+                    <div class="app-dish-card">
+                        <div x-img>
+                            <div x-price>50$</div>
+                            <img src="./assets/img/PRODUCTO 1.jpg" alt="">
+                            <div x-rating>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                            </div>
+                        </div>
+                        <div x-body>
+                            <span>Gourmet Dish</span>
+                            <button class="app-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 text-center">
+                    <div class="app-dish-card">
+                        <div x-img>
+                            <div x-price>50$</div>
+                            <img src="./assets/img/PRODUCTO 2.jpg" alt="">
+                            <div x-rating>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                            </div>
+                        </div>
+                        <div x-body>
+                            <span>Gourmet Dish</span>
+                            <button class="app-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 text-center">
+                    <div class="app-dish-card">
+                        <div x-img>
+                            <div x-price>50$</div>
+                            <img src="./assets/img/PRODUCTO 1.jpg" alt="">
+                            <div x-rating>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                            </div>
+                        </div>
+                        <div x-body>
+                            <span>Gourmet Dish</span>
+                            <button class="app-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 text-center">
+                    <div class="app-dish-card">
+                        <div x-img>
+                            <div x-price>50$</div>
+                            <img src="./assets/img/PRODUCTO 2.jpg" alt="">
+                            <div x-rating>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                            </div>
+                        </div>
+                        <div x-body>
+                            <span>Gourmet Dish</span>
+                            <button class="app-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 text-center">
+                    <div class="app-dish-card">
+                        <div x-img>
+                            <div x-price>50$</div>
+                            <img src="./assets/img/PRODUCTO 1.jpg" alt="">
+                            <div x-rating>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                            </div>
+                        </div>
+                        <div x-body>
+                            <span>Gourmet Dish</span>
+                            <button class="app-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 text-center">
+                    <div class="app-dish-card">
+                        <div x-img>
+                            <div x-price>50$</div>
+                            <img src="./assets/img/PRODUCTO 2.jpg" alt="">
+                            <div x-rating>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                            </div>
+                        </div>
+                        <div x-body>
+                            <span>Gourmet Dish</span>
+                            <button class="app-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 text-center">
+                    <div class="app-dish-card">
+                        <div x-img>
+                            <div x-price>50$</div>
+                            <img src="./assets/img/PRODUCTO 1.jpg" alt="">
+                            <div x-rating>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                            </div>
+                        </div>
+                        <div x-body>
+                            <span>Gourmet Dish</span>
+                            <button class="app-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 text-center">
+                    <div class="app-dish-card">
+                        <div x-img>
+                            <div x-price>50$</div>
+                            <img src="./assets/img/PRODUCTO 2.jpg" alt="">
+                            <div x-rating>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                            </div>
+                        </div>
+                        <div x-body>
+                            <span>Gourmet Dish</span>
+                            <button class="app-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="app-footer" class="text-center text-md-left">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 text-center">
+                    <img src="./assets/img/logo blanco amarillo.png" alt="">
+                    <div class="app-social">
+                        <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="app-quick-links">
+                        <span x-title>Quick Links</span>
+                        <ul>
+                            <li> <a href="./about-us.html">About Us</a></li>
+                            <li><a href="./shop-by-category.html">Shop By Category</a></li>
+                            <li> <a href="./index.html#menu">Menu</a></li>
+                            <li> <a href="./faqs.html">FAQ's</a></li>
+                            <li><a href="./contact-us.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="app-quick-links" detail>
+                        <span x-title>Information</span>
+                        <ul>
+                            <li>
+                                <a href="https://maps.app.goo.gl/efttEsjQbYFzjC7x9" target="_blank">
+                                    <span x-icon><i class="fa-solid fa-location-dot"></i></span>
+                                    <span>5191 Eastside Hwy Stevensville, MT 59870</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:info@glamping.global">
+                                    <span x-icon><i class="fa-solid fa-envelope"></i></span>
+                                    <span>info@glamping.global</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:1-844-9345267">
+                                    <span x-icon><i class="fa-solid fa-phone"></i></span>
+                                    <span>Tel: 1-844-WEGLAMP</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="app-credits">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8">
+                        Copyright © 2023 All rights reserved | This Website Was Designed And Developed by
+                    </div>
+                    <div class="col-4 text-center">
+                        <a href="https://striveenterprise.com/" target="_blank"><img
+                                src="./assets/img/logo Silvera Enterprises.png"></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- Video Modal -->
+    <div class="modal fade" id="play-video" tabindex="-1" aria-labelledby="play-videoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark">
+                <video autoplay loop class="app-testimonial-video">
+                </video>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- owl-carousel -->
+    <script src="./assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+
+    <!-- app scripts -->
+    <script src="./scripts.js"></script>
+</body>
+
+</html>

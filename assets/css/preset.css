@@ -1,0 +1,26 @@
+/* Preset */
+:root {
+    --font: Poppins-Bold;
+    --font-medium: Poppins-Medium;
+    --font-2-regular: Kanit;
+    --font-2: Kanit-Medium;
+    --font-2-bold: Kanit-Bold;
+    --app-primary: #FF9900;
+    --app-primary-dark: #D88100;
+    --app-primary-hover: #ff5e00;
+    --app-secondary: #FFD800;
+}
+*{
+    font-family: Kanit;
+}
+
+hr[v]{
+    border-left: 1px solid rgb(255, 255, 255);
+    height: 10px;
+    margin: 0 1rem;
+}
+
+hr[light] {
+    margin: 6px 0;
+    border-top: 2px solid #FFD80080;
+}

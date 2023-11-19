@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootCamp</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- owl-carousel -->
+    <link rel="stylesheet" href="./assets/vendor/owl.carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/vendor/owl.carousel/assets/owl.theme.default.min.css">
+
+    <!-- Vendor Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+    <!-- App Styles -->
+    <link rel="stylesheet" href="./assets/css/app.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="app-header">
+        <a class="navbar-brand app-brand" href="#">
+            <img src="./assets/img/Logo Blanco.png">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./about-us.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./shop-by-category.html">Shop by Category</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html#menu">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./faqs.html">FAQ's</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact-us.html">Contact Us</a>
+                </li>
+            </ul>
+            <div class="app-nav-icons">
+                <ul class="navbar-nav ml-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="mailto:info@glamping.global"><i class="fa-solid fa-envelope"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://maps.app.goo.gl/efttEsjQbYFzjC7x9" target="_blank"><i
+                                class="fa-solid fa-location-dot"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tel:1-844-9345267"><i class="fa-solid fa-phone"></i></a>
+                    </li>
+                </ul>
+                <hr v>
+                <ul class="navbar-nav ml-2">
+                    <li class="nav-item">
+                        <a class="nav-link"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="home">
+        <video autoplay loop muted class="app-hero-video">
+            <source src="./assets/video/hero.mp4" type="video/mp4">
+        </video>
+        <div class="container h-100">
+
+            <div class="row h-md-100 align-items-center text-md-left text-center">
+                <div class="col-10 col-md-6 offset-1 offset-md-0">
+                    <p class="main-title">
+                        <span> Only give the best</span>
+                        <span marked>to your plate</span>
+                    </p>
+
+                    <div class="row">
+                        <div class="col-4">
+                            <hr light>
+                        </div>
+                        <div class="col-8">
+                            <hr light>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="app-btn mt-4 ml-md-auto mb-sm-5 mx-auto" lg>MAKE A ORDER</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar">
+
+                <span>DELICIOUS FOOD</span>
+
+                <ul class="app-social">
+                    <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                    <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+                    <li><a href="https://www.linkedin.com/" target="_blank">LinkedIn</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="best-sellers" class="mx-4 text-md-left text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 px-4">
+                    <div class="app-title">
+                        <span title>Best Sellers</span>
+                        <span subtitle>Our Best Dishes</span>
+                    </div>
+
+                    <p>
+                        In our menu you will find the best dishes in the whole city, dishes made with fresh ingredients
+                        and
+                        excellent quality, and selected with great care to offer you unique dishes, so that you live
+                        with us a
+                        unique experience
+                    </p>
+
+                    <div class="my-5">
+                        <button class="app-btn mt-4 ml-md-auto mb-sm-5 mx-auto" lg>MAKE A ORDER</button>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-7 offset-md-1 ">
+
+                    <div class="owl-carousel owl-theme app-carousel-dishes" id="carousel-dishes">
+                        <div class="item">
+                            <div class="app-dish-card">
+                                <div x-img>
+                                    <div x-price>50$</div>
+                                    <img src="./assets/img/PRODUCTO 1.jpg" alt="">
+                                    <div x-rating>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                    </div>
+                                </div>
+                                <div x-body>
+                                    <span>Gourmet Dish</span>
+                                    <button class="app-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="app-dish-card">
+                                <div x-img>
+                                    <div x-price>50$</div>
+                                    <img src="./assets/img/PRODUCTO 2.jpg" alt="">
+                                    <div x-rating>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                    </div>
+                                </div>
+                                <div x-body>
+                                    <span>Gourmet Dish</span>
+                                    <button class="app-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="app-dish-card">
+                                <div x-img>
+                                    <div x-price>50$</div>
+                                    <img src="./assets/img/PRODUCTO 1.jpg" alt="">
+                                    <div x-rating>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                    </div>
+                                </div>
+                                <div x-body>
+                                    <span>Gourmet Dish</span>
+                                    <button class="app-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="app-dish-card">
+                                <div x-img>
+                                    <div x-price>50$</div>
+                                    <img src="./assets/img/PRODUCTO 2.jpg" alt="">
+                                    <div x-rating>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                    </div>
+                                </div>
+                                <div x-body>
+                                    <span>Gourmet Dish</span>
+                                    <button class="app-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="app-dish-card">
+                                <div x-img>
+                                    <div x-price>50$</div>
+                                    <img src="./assets/img/PRODUCTO 1.jpg" alt="">
+                                    <div x-rating>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                    </div>
+                                </div>
+                                <div x-body>
+                                    <span>Gourmet Dish</span>
+                                    <button class="app-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="app-dish-card">
+                                <div x-img>
+                                    <div x-price>50$</div>
+                                    <img src="./assets/img/PRODUCTO 2.jpg" alt="">
+                                    <div x-rating>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                        <span><i class="fa-solid fa-star"></i></span>
+                                    </div>
+                                </div>
+                                <div x-body>
+                                    <span>Gourmet Dish</span>
+                                    <button class="app-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-us" class="text-md-left text-center">
+        <div class="container">
+            <div class="row" style="position: relative;">
+                <div class="col-12  col-md-7 offset-md-5">
+                    <div class="app-about-us ">
+                        <div class="app-title">
+                            <span title>About Us</span>
+                            <span subtitle class="text-white">What do we offer you?</span>
+                        </div>
+
+                        <p>
+                            We want to satisfy the gastronomic needs of our clients, offering food and services with the
+                            highest quality, where the expectations of our clients are exceeded and to be a work space
+                            that allows the personal fulfillment and development of its collaborators in the group.
+                            Taking as main strategy the continuous improvement of the strict standards of hygiene and
+                            good service in a safe, pleasant and familiar environment at a fair price.
+                        </p>
+                        <div class="d-flex justify-content-center">
+                            <button class="app-btn mt-4 ml-md-auto" lg>MAKE A ORDER</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5" style="position: unset;">
+
+                    <img src="./assets/img/ABOUT.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="text-center">
+        <div class="container">
+            <div class="app-title" center>
+                <span title>Menu</span>
+                <span subtitle>Meet all our dishes</span>
+            </div>
+
+            <div class="menu">
+                <div>
+                    <div x-container class="justify-content-center align-items-start">
+                        <div x-name>Soups</div>
+                    </div>
+                    <img src="./assets/img/CATEGORIA 1.jpg">
+                </div>
+                <div>
+                    <div x-container class="justify-content-end align-items-start">
+                        <div x-name>hors d'oeuvres</div>
+                    </div>
+                    <img src="./assets/img/CATEGORIA 2.jpg">
+                </div>
+                <div>
+                    <div x-container class="justify-content-center align-items-end">
+                        <div x-name>Desserts</div>
+                    </div>
+                    <img src="./assets/img/CATEGORIA 5.jpg">
+                </div>
+                <div>
+                    <div x-container class="justify-content-center align-items-end">
+                        <div x-name>Gourtmet</div>
+                    </div>
+                    <img src="./assets/img/CATEGORIA 4.jpg">
+                </div>
+                <div>
+                    <div x-container class="justify-content-start align-items-end">
+                        <div x-name>Fittings</div>
+                    </div>
+                    <img src="./assets/img/CATEGORIA 3.jpg">
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <button class="app-btn mt-4" lg>MAKE A ORDER</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="text-md-left text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="app-title">
+                        <span title>Testimonials</span>
+                        <span subtitle>What do our customers say</span>
+                    </div>
+
+                    <p>For us it is very important to know the opinions of our clients, since they inspire us to do
+                        things better every day. Give us your opinion about our services and let's improve together more
+                        and more</p>
+
+                    <div class="d-flex justify-content-center">
+                        <button class="app-btn mt-4 mr-md-auto" lg>VIEW MORE</button>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 mt-md-0 mt-4">
+                    <div class="owl-carousel owl-theme app-testimonials">
+                        <div class="item">
+                            <div class="testimonial-container">
+                                <div x-name="">Jhon Smith</div>
+                                <div x-img data-toggle="modal" data-target="#play-video" x-video="1">
+                                    <span x-play><i class="fa-solid fa-play"></i></span>
+                                    <img src="./assets/img/person_3.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial-container">
+                                <div x-name="">Stephanie Jackson</div>
+                                <div x-img data-toggle="modal" data-target="#play-video" x-video="2">
+                                    <span x-play><i class="fa-solid fa-play"></i></span>
+                                    <img src="./assets/img/person_5.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter" class="text-md-left text-center">
+        <div class="container">
+            <h3 x-title>Subscribe To Newsletter</h3>
+            <h2 x-subtitle>Meet our Promotions</h2>
+            <form class="suscribe-form mt-4">
+                <input type="text">
+                <button type="submit" class="app-btn ">SUBSCRIBE
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer id="app-footer" class="text-center text-md-left">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 text-center">
+                    <img src="./assets/img/logo blanco amarillo.png" alt="">
+                    <div class="app-social">
+                        <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="app-quick-links">
+                        <span x-title>Quick Links</span>
+                        <ul>
+                            <li><a href="./about-us.html">About Us</a></li>
+                            <li><a href="./shop-by-category.html">Shop By Category</a></li>
+                            <li><a href="#menu">Menu</a></li>
+                            <li><a href="./faqs.html">FAQ's</a></li>
+                            <li><a href="./contact-us.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="app-quick-links" detail>
+                        <span x-title>Information</span>
+                        <ul>
+                            <li>
+                                <a href="https://maps.app.goo.gl/efttEsjQbYFzjC7x9" target="_blank">
+                                    <span x-icon><i class="fa-solid fa-location-dot"></i></span>
+                                    <span>5191 Eastside Hwy Stevensville, MT 59870</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:info@glamping.global">
+                                    <span x-icon><i class="fa-solid fa-envelope"></i></span>
+                                    <span>info@glamping.global</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tel:1-844-9345267">
+                                    <span x-icon><i class="fa-solid fa-phone"></i></span>
+                                    <span>Tel: 1-844-WEGLAMP</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="app-credits">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8">
+                        Copyright © 2023 All rights reserved | This Website Was Designed And Developed by
+                    </div>
+                    <div class="col-4 text-center">
+                        <a href="https://striveenterprise.com/" target="_blank"><img
+                                src="./assets/img/logo Silvera Enterprises.png"></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- Video Modal -->
+    <div class="modal fade" id="play-video" tabindex="-1" aria-labelledby="play-videoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content bg-dark">
+                <video autoplay loop class="app-testimonial-video">
+                </video>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- owl-carousel -->
+    <script src="./assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+
+    <!-- app scripts -->
+    <script src="./scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('../fonts/Poppins-Bold.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('../fonts/Poppins-Medium.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-Regular.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Kanit-Medium';
+    src: url('../fonts/Kanit-Medium.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Kanit-Bold';
+    src: url('../fonts/Kanit-Bold.ttf') format('truetype');
+  }
