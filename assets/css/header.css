@@ -1,6 +1,10 @@
 #app-header {
     height: 100px;
-    transition: 0.3s background-color, 0.3s color;
+    transition: .3s background-color, .3s color, .3s left;
+}
+
+#app-header[home] {
+    right: 88px;
 }
 
 #app-header .app-nav-icons {
@@ -11,6 +15,7 @@
 
 #app-header[main] {
     background-color: #fff;
+    right: 0;
 }
 
 @media (min-width: 768px) {
