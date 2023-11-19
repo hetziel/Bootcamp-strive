@@ -1,10 +1,10 @@
+#app-header #navbarSupportedContent>.navbar-nav {
+    flex-wrap: wrap;
+}
+
 #app-header {
     height: 100px;
     transition: .3s background-color, .3s color, .3s left;
-}
-
-#app-header[home] {
-    right: 88px;
 }
 
 #app-header .app-nav-icons {
@@ -22,5 +22,13 @@
     #app-header[main] .nav-link {
         color: #000;
 
+    }
+
+    #app-header[home] {
+        right: 88px;
+    }
+
+    #app-header[main] {
+        right: 0;
     }
 }
