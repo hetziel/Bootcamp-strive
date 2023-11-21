@@ -1,5 +1,4 @@
-#carousel-dishes .owl-dot span,
-#testimonials  .owl-dot span {
+.owl-theme .owl-dots .owl-dot span {
     width: 14px;
     height: 14px;
     padding: 0;
@@ -14,8 +13,7 @@
     transition: .2s;
 }
 
-#carousel-dishes .owl-dot.active span,
-#testimonials .owl-dot.active span {
+.owl-dot.active span {
     background: var(--app-primary) !important;
     border: 2px solid var(--app-primary) !important;
     box-shadow: 0px 0px 0px 1px #fff, 0 0 0px 1px inset #fff;

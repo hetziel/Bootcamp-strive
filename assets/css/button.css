@@ -1,14 +1,15 @@
 .app-btn{
-    display: block;
+    display: inline-block;
     outline: none;
     background: var(--app-primary);
     padding: 5px 2rem;
     font-family: var(--font-2);
-    color: white;
+    color: white !important;
     border: 2px solid var(--app-primary);
     box-shadow: 0px 0px 0px 1px #fff, 0 0 0px 1px inset #fff;
     margin: 1px;
     transition: .2s background,.2s border;
+    text-decoration: none !important;
 }
 .app-btn:hover{
     background: var(--app-primary-hover);

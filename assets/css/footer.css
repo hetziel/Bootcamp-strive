@@ -1,10 +1,10 @@
 #app-footer {
     background: linear-gradient(89.71deg, #383838 23.22%, #575757 92.95%);
-    padding-top: 1rem;
+    padding-top: 2em;
 }
 
 #app-footer img {
-    width: 300px;
+    max-width: 300px;
     max-height: 200px;
     object-fit: cover;
 }
@@ -12,7 +12,6 @@
 #app-footer .app-social {
     display: flex;
     justify-content: center;
-    margin-bottom: 1.5rem;
 }
 
 #app-footer .app-social a {
@@ -67,4 +66,17 @@
 
 #app-footer .app-credits img {
     width: 100px;
+}
+#app-footer .app-credits .app-copyright {
+    font-size: 14px;
+}
+
+@media (max-width: 767px) {
+    .app-quick-links ul {
+        list-style: none;
+        padding: 0;
+    }
+    .app-quick-links [x-icon] {
+        display: none;
+    }
 }

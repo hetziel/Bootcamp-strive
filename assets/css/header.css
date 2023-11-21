@@ -1,3 +1,27 @@
+.top-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    display: none;
+}
+
+.top-header .app-social {
+    height: 30px;
+    background: var(--app-primary) !important;
+}
+
+.top-header .app-social a{
+    color: #fff;
+}
+.top-header .app-social a:hover{
+    color: #000;
+}
+.top-header .app-social li {
+    padding: 0 1rem !important;
+}
+
+
 #app-header #navbarSupportedContent>.navbar-nav {
     flex-wrap: wrap;
 }
@@ -18,11 +42,30 @@
     right: 0;
 }
 
-@media (min-width: 768px) {
-    #app-header[main] .nav-link {
-        color: #000;
+.app-brand+.navbar-collapse {
+    flex-basis: auto;
+}
 
+#app-header .app-brand+div .nav-link {
+    padding: 0.5rem !important;
+}
+
+
+#app-header[main] .nav-link {
+    color: #000;
+}
+
+@media (max-width: 767px) {
+    #app-header {
+        top: 30px;
     }
+    .top-header {
+        display: block ;
+    }
+}
+
+@media (min-width: 768px) {
+  
 
     #app-header[home] {
         right: 88px;

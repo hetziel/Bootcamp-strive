@@ -25,12 +25,13 @@
 * {
     scroll-behavior: smooth;
 }
-img{
+
+img {
     width: 100%;
 }
 
 /* General */
-nav+section{
+nav+section .container {
     padding-top: 10rem !important;
 }
 
@@ -101,3 +102,10 @@ nav+section{
     transform: scale(1.1);
 }
 
+.app-breadcumbs a{
+    color: var(--app-primary);
+}
+
+.app-breadcumbs span {
+    color: #fff;
+}

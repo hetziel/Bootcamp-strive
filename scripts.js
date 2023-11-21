@@ -16,15 +16,15 @@ window.addEventListener("scroll", function () {
 })
 
 // Carousels
-$('.app-carousel-dishes').owlCarousel({
+$('#best-sellers .app-carousel-dishes').owlCarousel({
     loop: true,
     margin: 40,
     nav: false,
     responsive: {
         0: {
-            items: 2
+            items: 1
         },
-        600: {
+        768: {
             items: 2
         },
         1000: {
@@ -45,20 +45,39 @@ $('.app-testimonials').owlCarousel({
     }
 })
 
+$('.page-menu .app-carousel-dishes').owlCarousel({
+    loop: true,
+    margin: 20,
+    nav: false,
+    responsive: {
+        0: {
+            items: 2
+        },
+        768: {
+            items: 4
+        },
+        1000: {
+            items: 5
+        }
+    }
+})
+
 // Events
 window.addEventListener('click', (e) => {
     let playVideo = e.target.closest('[data-target="#play-video"]');
     let modalVideo = !e.target.closest('#play-video .modal-content');
 
     if (playVideo) {
-        if (playingVideo == false) {      
+        if (playingVideo == false) {
             let video = playVideo.getAttribute("x-video")
-            reviewVideo.innerHTML = '<source src="./assets/video/testimonial-' + video + '.mp4" type="video/mp4"></source>';
-            reviewVideo.load();
 
-            reviewVideo.play();
-            playingVideo = true;
+            if (video != null) {
+                reviewVideo.innerHTML = '<source src="./assets/video/testimonial-' + video + '.mp4" type="video/mp4"></source>';
+                reviewVideo.load();
 
+                reviewVideo.play();
+                playingVideo = true;
+            }
         }
     } else {
         if (playingVideo == true && modalVideo) {

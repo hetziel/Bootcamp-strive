@@ -1,9 +1,12 @@
 #home {
+    height: 100vh;
+}
+
+#home {
     background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35));
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center !important;
-    height: 100vh;
 }
 
 .main-title,
@@ -24,8 +27,7 @@
     margin: 0;
 }
 
-.main-title span {
-    padding-left: 4rem;
+#home .main-title span {
     margin-left: -2rem;
 }
 
@@ -41,7 +43,29 @@
     transition: 0.2s width;
 }
 
-.sidebar .app-social {
+.sidebar[x-title] {
+    top: 0;
+    bottom: 0;
+    right: 80px;
+    width: 250px;
+    justify-content: end;
+    transition: 0.2s width;
+}
+
+.sidebar span {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    margin-bottom: 4rem;
+    line-height: 31px;
+}
+
+.sidebar-social {
+    position: absolute;
+    right: 0;
+}
+
+.sidebar-social .app-social,
+.top-header .app-social {
     display: flex;
     background: #fff;
     margin: 0;
@@ -49,7 +73,8 @@
     padding: 0;
 }
 
-.sidebar .app-social li {
+.sidebar-social .app-social li,
+.top-header .app-social li {
     padding: 1rem 0;
     text-decoration: none;
     list-style: none;
@@ -80,4 +105,33 @@
     right: 0;
     z-index: -1;
     object-fit: cover;
+}
+
+
+@media (max-width: 767px) {
+
+    .sidebar[x-title] {
+        display: none;
+    }
+
+    .sidebar-social {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    #home .main-title span {
+        padding-left: 4rem;
+    }
+
+    .sidebar-social {
+        top: 0;
+    }
+
+    .sidebar-social .app-social {
+        writing-mode: vertical-lr;
+        transform: rotate(180deg);
+        width: 80px;
+        height: 100%;
+    }
 }

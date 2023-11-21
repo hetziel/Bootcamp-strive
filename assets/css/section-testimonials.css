@@ -1,6 +1,11 @@
-#testimonials .container {
+#testimonials .container-fluid {
     background: rgba(196, 196, 196, 0.24);
-    padding: 4rem 5rem;
+    padding: 4rem 0;
+}
+
+.app-testimonials {
+    width: 400px;
+    margin-left: auto;
 }
 
 #testimonials .testimonial-container {
@@ -9,7 +14,7 @@
     justify-content: center;
 }
 
-#testimonials .testimonial-container [x-name] {
+#testimonials .testimonial-container>[x-name] {
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     background: linear-gradient(180deg, #383838 0%, #000000 100%);
@@ -46,11 +51,47 @@
     height: 310px;
     box-shadow: 10px 10px 0 var(--app-primary-dark);
     background: #fff;
-    cursor: pointer;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#testimonials .testimonial-container [x-img] img {
+#testimonials .testimonial-container [x-img] [x-video] {
+    cursor: pointer;
+}
+
+#testimonials [x-review] {
+    padding: 1rem;
+}
+
+#testimonials [x-review] [x-name] {
+    font-size: 12px;
+    font-family: var(--font);
+    color: rgba(0, 0, 0, 0.6);
+}
+
+#testimonials [x-review] .profile-review {
+    display: flex;
+    flex-direction: column;
+}
+
+#testimonials [x-review]>div {
+    display: flex;
+    align-items: center;
+}
+
+#testimonials [x-profile] {
+    width: 48px;
+    height: 48px;
+    margin-right: 1rem;
+}
+
+#testimonials [x-rating] {
+    color: var(--app-primary);
+}
+
+#testimonials .testimonial-container [x-img]>img {
     width: 100%;
     height: 100%;
     object-fit: cover;

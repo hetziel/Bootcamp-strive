@@ -3,9 +3,11 @@
     background-size: cover;
 }
 
-#newsletter .container {
+#newsletter .container-fluid {
     background: linear-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.35)),
         url("../img/Subscribe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 4rem 5rem;
 }
 
@@ -49,5 +51,12 @@
 
     #newsletter .suscribe-form input {
         margin-bottom: 1rem;
+        margin-right: 0;
+
+    }
+
+    #newsletter .suscribe-form .app-btn {
+        max-width: 660px;
+        width: 100%;
     }
 }

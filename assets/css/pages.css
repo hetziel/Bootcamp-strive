@@ -1,9 +1,17 @@
 #page-about-us {
     padding: 2rem 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-        url("../img/ABOUT.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+}
+
+#page-about-us b {
+    color: var(--app-primary);
+}
+
+.app-page-head {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35));
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
 }
 
 .app-page img {
@@ -12,34 +20,8 @@
     object-fit: cover;
 }
 
-@media (max-width: 767px) {
-    #page-about-us img {
-        max-height: 500px;
-    }
-}
-
-
-.app-shop-by-category {
-    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-        url("../img/HERO.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.app-faqs {
-    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-        url("../img/CATEGORIA\ 2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.app-contact-us {
-    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-        url("../img/CATEGORIA\ 4.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+#page-faqs img {
+    height: 100%;
 }
 
 #contact-us .card-header {
@@ -58,4 +40,55 @@
 
 #contact-us .card {
     height: 100%;
+}
+
+
+.page-menu .menu {
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+
+.page-menu .menu img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.menu-page [x-name] {
+    background: var(--app-primary);
+    color: #fff;
+    padding: 2px 1rem;
+    font-size: 30px;
+    font-family: var(--font);
+    min-width: 220px;
+    text-align: center;
+}
+
+#menus .menu {
+    height: 300px;
+}
+
+#menus .menu [x-container] {
+    justify-content: center;
+    align-items: end;
+    text-decoration: none;
+}
+
+#menus .menu [x-name] {
+    font-size: 14px;
+    min-width: 150px;
+}
+
+#menus .item {
+    overflow: hidden;
+}
+
+@media (max-width: 767px) {
+    #page-about-us img {
+        max-height: 500px;
+    }
+
+    #page-menu .menu {
+        height: 100px;
+    }
 }
