@@ -1,3 +1,4 @@
+/* Top Header */
 .top-header {
     width: 100%;
     position: fixed;
@@ -16,7 +17,7 @@
 }
 
 .top-header .app-social a:hover {
-    color: #000;
+    color: var(--app-primary-hover)
 }
 
 .top-header .app-social li {
@@ -28,9 +29,11 @@
     flex-wrap: wrap;
 }
 
+/* Header */
 #app-header {
     height: 100px;
     transition: .3s background-color, .3s color, .3s left;
+    padding-left: 0;
 }
 
 #app-header .app-nav-icons {
@@ -62,12 +65,16 @@
 }
 
 @media (max-width: 767px) {
-    #app-header {
-        top: 30px;
-    }
-
     .top-header {
         display: block;
+    }
+
+    .top-header .app-social a {
+        font-size: 12px;
+    }
+
+    #app-header {
+        top: 30px;
     }
 
     .app-brand {
