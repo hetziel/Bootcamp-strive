@@ -1,27 +1,26 @@
+/* Settings */
 @import url(./preset.css);
 @import url(./fonts.css);
-@import url(./owl-carousel.css);
-
-
-@import url(./header.css);
 
 /* Sections */
+@import url(./header.css);
 @import url(./section-home.css);
 @import url(./section-best-sellers.css);
 @import url(./section-about-us.css);
 @import url(./section-menu.css);
 @import url(./section-testimonials.css);
 @import url(./section-newsletter.css);
+@import url(./footer.css);
 
 /* Pages */
 @import url(./pages.css);
 
-@import url(./footer.css);
 
 /* Components */
 @import url(./button.css);
-@import url(./mediaquery.css);
+@import url(./owl-carousel.css);
 
+/* General */
 * {
     scroll-behavior: smooth;
 }
@@ -30,7 +29,6 @@ img {
     width: 100%;
 }
 
-/* General */
 nav+section .container {
     padding-top: 10rem !important;
 }
@@ -102,10 +100,17 @@ nav+section .container {
     transform: scale(1.1);
 }
 
-.app-breadcumbs a{
+.app-breadcumbs a {
     color: var(--app-primary);
 }
 
 .app-breadcumbs span {
     color: #fff;
+}
+
+
+@media (min-width: 768px) {
+    .h-md-100 {
+        height: 100%;
+    }
 }

@@ -11,12 +11,14 @@
     background: var(--app-primary) !important;
 }
 
-.top-header .app-social a{
+.top-header .app-social a {
     color: #fff;
 }
-.top-header .app-social a:hover{
+
+.top-header .app-social a:hover {
     color: #000;
 }
+
 .top-header .app-social li {
     padding: 0 1rem !important;
 }
@@ -46,6 +48,10 @@
     flex-basis: auto;
 }
 
+.app-navbar-first .navbar-nav {
+    font-size: 12px;
+}
+
 #app-header .app-brand+div .nav-link {
     padding: 0.5rem !important;
 }
@@ -59,13 +65,55 @@
     #app-header {
         top: 30px;
     }
+
     .top-header {
-        display: block ;
+        display: block;
     }
+
+    .app-brand {
+        margin-right: 0;
+    }
+
+    .app-brand img {
+        width: 100px !important;
+    }
+
+    .navbar-toggler {
+        background: var(--app-primary);
+    }
+
+    .navbar-toggler+.navbar-collapse .nav-link {
+        color: #fff !important;
+    }
+
+
+    .navbar-toggler+.navbar-collapse {
+        background: rgba(0, 0, 0, 0.4);
+        margin: .5rem -1rem;
+        padding: 1rem;
+        text-align: center;
+        width: 100%;
+        backdrop-filter: blur(2px);
+    }
+
+    #app-header .app-nav-icons .navbar-nav {
+        flex-direction: row;
+    }
+
+    #app-header .app-nav-icons .navbar-nav a {
+        padding: 1rem;
+    }
+
+    .app-title [title]::before {
+        width: 100% !important;
+        left: 0;
+        top: 100% !important;
+    }
+
 }
 
 @media (min-width: 768px) {
-  
+
 
     #app-header[home] {
         right: 88px;
