@@ -20,6 +20,10 @@ $('#best-sellers .app-carousel-dishes').owlCarousel({
     loop: true,
     margin: 40,
     nav: false,
+    autoplay:true,
+    autoplayTimeout:5000,
+    autoplayHoverPause:true,
+    loop:true,
     responsive: {
         0: {
             items: 1
@@ -51,7 +55,7 @@ $('.page-menu .app-carousel-dishes').owlCarousel({
     nav: false,
     responsive: {
         0: {
-            items: 2
+            items: 1
         },
         768: {
             items: 4

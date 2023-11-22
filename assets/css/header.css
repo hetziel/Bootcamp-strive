@@ -5,11 +5,15 @@
     top: 0;
     z-index: 10;
     display: none;
+    justify-content: center;
+    align-items: center;
+    background: var(--app-primary);
 }
 
 .top-header .app-social {
     height: 30px;
-    background: var(--app-primary) !important;
+    background: transparent !important;
+
 }
 
 .top-header .app-social a {
@@ -21,7 +25,7 @@
 }
 
 .top-header .app-social li {
-    padding: 0 1rem !important;
+    padding: 0 .5rem !important;
 }
 
 
@@ -31,9 +35,13 @@
 
 /* Header */
 #app-header {
-    height: 100px;
     transition: .3s background-color, .3s color, .3s left;
     padding-left: 0;
+}
+
+
+.app-brand {
+    height: 100px;
 }
 
 #app-header .app-nav-icons {
@@ -51,8 +59,13 @@
     flex-basis: auto;
 }
 
+.app-navbar-first {
+    padding-right: 1rem;
+    margin-left: auto;
+}
+
 .app-navbar-first .navbar-nav {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 #app-header .app-brand+div .nav-link {
@@ -65,24 +78,28 @@
 }
 
 @media (max-width: 767px) {
+
+    #app-header {
+        padding-left: 0;
+        height: 90px;
+        top: 30px;
+    }
+
     .top-header {
-        display: block;
+        display: flex;
     }
 
     .top-header .app-social a {
-        font-size: 12px;
-    }
-
-    #app-header {
-        top: 30px;
+        font-size: 14px;
     }
 
     .app-brand {
         margin-right: 0;
+        height: 100%;
     }
 
     .app-brand img {
-        width: 100px !important;
+        width: 150px !important;
     }
 
     .navbar-toggler {
@@ -120,10 +137,12 @@
 }
 
 @media (min-width: 768px) {
-
+    #app-header {
+        padding-top: 1rem;
+    }
 
     #app-header[home] {
-        right: 88px;
+        right: 80px;
     }
 
     #app-header[main] {

@@ -42,6 +42,9 @@
     height: 100%;
 }
 
+.page-menu {
+    position: relative;
+}
 
 .page-menu .menu {
     width: 100%;
@@ -70,7 +73,7 @@
 
 #menus .menu [x-container] {
     justify-content: center;
-    align-items: end;
+    align-items: center;
     text-decoration: none;
 }
 
@@ -81,6 +84,14 @@
 
 #menus .item {
     overflow: hidden;
+}
+
+.app-bg-light {
+    background: rgba(196, 196, 196, 0.24);
+    padding: 2.5rem 0;
+}
+.app-bg-none {
+    padding: 2.5rem 0;
 }
 
 @media (max-width: 767px) {

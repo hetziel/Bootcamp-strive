@@ -1,13 +1,14 @@
 #menu {
-    padding: 4rem 0;
+    padding: 3rem 0;
 }
 
 #menu .menu {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: minmax(244px, 300px);
+    grid-template-rows: 280px 222px 280px;
     gap: 1rem;
 }
+
 #menus .menu img,
 #menu .menu img {
     width: 100%;
@@ -62,7 +63,7 @@
     #menu .menu {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(5, 244px);
+        grid-template-rows: repeat(5, 200px);
     }
 
     #menu .menu [x-container] {

@@ -27,10 +27,6 @@
     margin: 0;
 }
 
-#home .main-title span {
-    margin-left: -2rem;
-}
-
 .main-title [marked] {
     background: rgba(0, 0, 0, 0.3);
 }
@@ -56,7 +52,8 @@
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     margin-bottom: 4rem;
-    line-height: 31px;
+    line-height: 27px;
+    font-size: 65px;
 }
 
 .sidebar-social {
@@ -82,8 +79,8 @@
 }
 
 .app-social a {
-    color: black;
-    font-family: var(--font-2);
+    color: #383838;
+    font-family: var(--font-2-bold);
     font-size: 16px;
     display: flex;
     justify-content: center;
@@ -122,6 +119,7 @@
 @media (min-width: 768px) {
     #home .main-title span {
         padding-left: 4rem;
+        margin-left: -2rem;
     }
 
     .sidebar-social {

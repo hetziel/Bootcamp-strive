@@ -38,10 +38,6 @@ nav+section .container {
     margin-bottom: 3rem;
 }
 
-.app-brand {
-    height: 100%;
-}
-
 .app-brand img {
     width: 185px;
     height: 100%;
@@ -106,6 +102,14 @@ nav+section .container {
 
 .app-breadcumbs span {
     color: #fff;
+}
+
+.app-section-selector{
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    top: -150px;
+    pointer-events: none;
 }
 
 
