@@ -8,6 +8,7 @@
     justify-content: center;
     align-items: center;
     background: var(--app-primary);
+    flex-wrap: nowrap;
 }
 
 .top-header .app-social {
