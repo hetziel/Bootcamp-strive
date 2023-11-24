@@ -37,7 +37,6 @@
 /* Header */
 #app-header {
     transition: .3s background-color, .3s color, .3s left;
-    padding-left: 0;
 }
 
 
@@ -136,10 +135,12 @@
 @media (min-width: 768px) {
     #app-header {
         padding-top: 1rem;
+        padding-left: 1.5rem;
+        padding-right: 5rem;
     }
 
     #app-header[home] {
-        right: 80px;
+        padding-right: 6rem;
     }
 
     #app-header[main] {
