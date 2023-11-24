@@ -9,8 +9,9 @@
     --app-primary-dark: #D88100;
     --app-primary-hover: #ff5e00;
     --app-secondary: #FFD800;
+    --app-footer: #ff994c;
 }
-*{
+body{
     font-family: Kanit;
 }
 

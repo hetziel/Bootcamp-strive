@@ -21,7 +21,6 @@
     color: #fff;
 }
 
-
 /* Mobile */
 @media (max-width: 767px) {
     #about-us img {
@@ -51,6 +50,7 @@
     #about-us {
         padding-bottom: 7rem;
     }
+
     #about-us img {
         width: 50%;
         height: 500px;
@@ -58,5 +58,11 @@
 
     #about-us .app-about-us {
         padding: 4rem 4rem 2.5rem 10rem;
+    }
+}
+
+@media (min-width: 1140px) {
+    #about-us img {
+        width: 46%;
     }
 }

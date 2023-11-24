@@ -1,4 +1,4 @@
-#testimonials>div {
+#testimonials {
     background: rgba(196, 196, 196, 0.24);
 }
 
@@ -109,7 +109,7 @@
 
     #testimonials>div,
     #newsletter>div {
-        padding: 3rem 4rem;
+        padding: 3rem 1rem;
 
     }
 }

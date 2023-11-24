@@ -80,7 +80,7 @@
         </ul>
     </div>
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="app-header" home>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="app-header">
         <a class="navbar-brand app-brand" href="./index.html">
             <img src="./assets/img/Logo Blanco.png">
         </a>
@@ -167,8 +167,8 @@
 
     <section class="page-menu text-md-left text-center" id="menus">
         <div class="container">
-            <div class="mx-md-5">
-                <div class="app-title">
+            <div class="mx-md-5 text-center">
+                <div class="app-title" center>
                     <span title>Menu</span>
                     <span subtitle>Meet all our dishes</span>
                 </div>
@@ -237,17 +237,18 @@
     </section>
 
     <section class="page-menu app-bg-light">
+        <div class="container-fluid">
+            <div class="app-section-selector" id="menu-1"></div>
+
+            <div class="menu">
+                <div x-container class="justify-content-center align-items-center">
+                    <div x-name>Soups</div>
+                </div>
+                <img src="./assets/img/CATEGORIA 1.jpg">
+            </div>
+        </div>
         <div class="container-xl">
             <div class="mx-md-5">
-                <div class="app-section-selector" id="menu-1"></div>
-
-                <div class="menu">
-                    <div x-container class="justify-content-center align-items-center">
-                        <div x-name>Soups</div>
-                    </div>
-                    <img src="./assets/img/CATEGORIA 1.jpg">
-                </div>
-
                 <div class="my-4 row">
                     <div class="col-12 col-md-3">
                         <div class="app-dish-card">
@@ -337,15 +338,14 @@
 
     <section class="page-menu app-bg-none">
         <div class="container-xl">
-            <div class="mx-md-5">
-                <div class="app-section-selector" id="menu-2"></div>
-                <div class="menu">
-                    <div x-container class="justify-content-center align-items-center">
-                        <div x-name>hors d'oeuvres</div>
-                    </div>
-                    <img src="./assets/img/CATEGORIA 2.jpg">
+            <div class="app-section-selector" id="menu-2"></div>
+            <div class="menu">
+                <div x-container class="justify-content-center align-items-center">
+                    <div x-name>hors d'oeuvres</div>
                 </div>
-
+                <img src="./assets/img/CATEGORIA 2.jpg">
+            </div>
+            <div class="mx-md-5">
                 <div class="my-4 row">
                     <div class="col-12 col-md-3">
                         <div class="app-dish-card">
@@ -433,17 +433,19 @@
         </div>
     </section>
     <section class="page-menu app-bg-light">
-        <div class="container-xl">
-            <div class="mx-md-5">
-                <div class="app-section-selector" id="menu-3"></div>
+        <div class="container-fluid">
+            <div class="app-section-selector" id="menu-3"></div>
 
-                <div class="menu">
-                    <div x-container class="justify-content-center align-items-center">
-                        <div x-name>Desserts</div>
-                    </div>
-                    <img src="./assets/img/CATEGORIA 5.jpg">
+            <div class="menu">
+                <div x-container class="justify-content-center align-items-center">
+                    <div x-name>Desserts</div>
                 </div>
+                <img src="./assets/img/CATEGORIA 5.jpg">
+            </div>
+        </div>
+        <div class="container-xl">
 
+            <div class="mx-md-5">
                 <div class="my-4 row">
                     <div class="col-12 col-md-3">
                         <div class="app-dish-card">
@@ -531,17 +533,19 @@
         </div>
     </section>
     <section class="page-menu app-bg-none">
-        <div class="container-xl">
-            <div class="mx-md-5">
-                <div class="app-section-selector" id="menu-4"></div>
+        <div class="container-fluid">
+            <div class="app-section-selector" id="menu-4"></div>
 
-                <div class="menu">
-                    <div x-container class="justify-content-center align-items-center">
-                        <div x-name>Gourtmet</div>
-                    </div>
-                    <img src="./assets/img/CATEGORIA 4.jpg">
+            <div class="menu">
+                <div x-container class="justify-content-center align-items-center">
+                    <div x-name>Gourtmet</div>
                 </div>
+                <img src="./assets/img/CATEGORIA 4.jpg">
+            </div>
+        </div>
+        <div class="container-xl">
 
+            <div class="mx-md-5">
                 <div class="my-4 row">
                     <div class="col-12 col-md-3">
                         <div class="app-dish-card">
@@ -629,17 +633,18 @@
         </div>
     </section>
     <section class="page-menu app-bg-light">
+        <div class="container-fluid">
+            <div class="app-section-selector" id="menu-5"></div>
+
+            <div class="menu">
+                <div x-container class="justify-content-center align-items-center">
+                    <div x-name>Fittings</div>
+                </div>
+                <img src="./assets/img/CATEGORIA 3.jpg">
+            </div>
+        </div>
         <div class="container-xl">
             <div class="mx-md-5">
-                <div class="app-section-selector" id="menu-5"></div>
-
-                <div class="menu">
-                    <div x-container class="justify-content-center align-items-center">
-                        <div x-name>Fittings</div>
-                    </div>
-                    <img src="./assets/img/CATEGORIA 3.jpg">
-                </div>
-
                 <div class="my-4 row">
                     <div class="col-12 col-md-3">
                         <div class="app-dish-card">
@@ -728,17 +733,19 @@
     </section>
 
     <footer id="app-footer" class="text-center text-md-left">
-        <div class="container-fluid">
+        <div class="container-xl">
             <div class="row mx-5 align-items-center">
-                <div class="col-12 col-md-4 text-center mb-5 mb-md-0">
-                    <img src="./assets/img/logo blanco amarillo.png" alt="">
-                    <div class="app-social">
-                        <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <div class="col-12 col-md-4 mb-5 mb-md-0  d-flex align-items-center">
+                    <div class="text-center">
+                        <img class="footer-logo" src="./assets/img/logo blanco amarillo footer.png">
+                        <div class="app-social">
+                            <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4 mb-5 mb-md-0  d-flex align-items-center">
                     <div class="app-quick-links">
                         <span x-title>Quick Links</span>
                         <ul>
@@ -749,7 +756,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4  d-flex align-items-center">
                     <div class="app-quick-links" detail>
                         <span x-title>Information</span>
                         <ul>
@@ -777,22 +784,22 @@
             </div>
         </div>
         <div class="app-credits">
-            <div class="container-fluid">
+            <div class="container-xl">
                 <div class="row">
-                    <div class="col-12 col-md-8 text-center text-md-left mb-2 mb-md-0">
+                    <div class="col-12 col-md-8 text-center text-md-left mb-2 mb-md-0 d-flex align-items-center">
                         <span class="app-copyright">Copyright © 2023 All rights reserved | This Website Was Designed And
                             Developed by </span>
                     </div>
-                    <div class="col-12 col-md-4 text-center">
-                        <a href="https://striveenterprise.com/" target="_blank"><img
-                                src="./assets/img/logo Silvera Enterprises.png"></a>
+                    <div class="col-12 col-md-4 text-center d-flex align-items-center">
+                        <a href="https://striveenterprise.com/" target="_blank">
+                            <img class="ml-auto mr-auto mr-md-0" src="./assets/img/logo Silvera Enterprises.png"></a>
                     </div>
                 </div>
 
             </div>
         </div>
     </footer>
-
+    
     <!-- owl-carousel -->
     <script src="./assets/vendor/owl.carousel/owl.carousel.min.js"></script>
 
