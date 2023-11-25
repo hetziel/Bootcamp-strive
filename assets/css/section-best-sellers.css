@@ -83,8 +83,7 @@
 }
 
 .app-container {
-    padding-right: 15px;
-    padding-left: 15px;
+    margin-left: 4rem;
 }
 
 @media (max-width: 767px) {
@@ -95,20 +94,5 @@
     #carousel-dishes .carousel-indicators,
     #carousel-dishes .owl-dots {
         justify-content: center;
-    }
-
-    .app-container {
-        margin-left: 0;
-    }
-}
-
-@media (min-width: 992px) {
-    .app-container {
-        margin-left: 7rem;
-    }
-}
-@media (min-width: 1200px) {
-    .app-container {
-         margin-left: 14rem;;
     }
 }
