@@ -82,9 +82,9 @@
 
 }
 
-.app-container {
-    margin-left: 4rem;
-}
+/* .app-container {
+    margin-left: 7rem;
+} */
 
 @media (max-width: 767px) {
     #best-sellers .app-dish-card {
@@ -94,5 +94,11 @@
     #carousel-dishes .carousel-indicators,
     #carousel-dishes .owl-dots {
         justify-content: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .app-container {
+        margin-left: 6rem;
     }
 }
