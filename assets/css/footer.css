@@ -54,6 +54,9 @@
     font-size: 24px;
 }
 
+.app-quick-links[detail]{
+    margin-left: 5rem;
+}
 .app-quick-links[detail] span {
     padding-left: 4px;
 }
