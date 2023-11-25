@@ -88,6 +88,10 @@
     width: 100%;
 }
 
+#app-footer .col-12 {
+    justify-content: center;
+}
+
 @media (max-width: 767px) {
     .app-quick-links ul {
         list-style: none;
@@ -96,10 +100,6 @@
 
     .app-quick-links [x-icon] {
         display: none;
-    }
-
-    #app-footer .col-12 {
-        justify-content: center;
     }
 }
 
