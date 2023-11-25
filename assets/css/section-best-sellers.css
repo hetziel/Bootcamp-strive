@@ -82,10 +82,6 @@
 
 }
 
-/* .app-container {
-    margin-left: 7rem;
-} */
-
 @media (max-width: 767px) {
     #best-sellers .app-dish-card {
         max-width: 100%;

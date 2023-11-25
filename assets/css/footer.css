@@ -107,15 +107,12 @@
 
 @media (min-width: 768px) {
     .app-quick-links[detail] {
-        /* margin-left: 5rem; */
         max-width: 236px;
     }
 }
 
 @media (min-width: 992px) {
-    .app-quick-links {
-        /* margin: 0 3rem; */
-    }
+    .app-quick-links {}
 
     #app-footer .app-credits .row {
         margin: 0 4rem;

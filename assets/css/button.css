@@ -1,4 +1,4 @@
-.app-btn{
+.app-btn {
     display: inline-block;
     outline: none;
     background: var(--app-primary);
@@ -8,16 +8,17 @@
     border: 2px solid var(--app-primary);
     box-shadow: 0px 0px 0px 1px #fff, 0 0 0px 1px inset #fff;
     margin: 1px;
-    transition: .2s background,.2s border;
+    transition: .2s background, .2s border;
     text-decoration: none !important;
 }
-.app-btn:hover{
+
+.app-btn:hover {
     background: var(--app-primary-hover);
     border: 2px solid #fff;
 
 
 }
 
-.app-btn[lg]{
+.app-btn[lg] {
     font-size: 20px;
 }
