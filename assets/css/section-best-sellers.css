@@ -82,6 +82,11 @@
 
 }
 
+.app-container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
 @media (max-width: 767px) {
     #best-sellers .app-dish-card {
         max-width: 100%;
@@ -90,5 +95,15 @@
     #carousel-dishes .carousel-indicators,
     #carousel-dishes .owl-dots {
         justify-content: center;
+    }
+
+    .app-container {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .app-container {
+        margin-left: 7rem;
     }
 }
