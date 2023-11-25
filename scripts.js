@@ -7,11 +7,11 @@ let playingVideo = false;
 window.addEventListener("scroll", function () {
     if (window.scrollY > 0) {
         header.setAttribute("main", "")
-        header.querySelector(".app-brand img").setAttribute("src", "./assets/img/Logo Negro.png")
+        header.querySelector(".app-brand img").setAttribute("src", "./assets/img/Logo Negro cut.png")
 
     } else {
         header.removeAttribute("main")
-        header.querySelector(".app-brand img").setAttribute("src", "./assets/img/Logo Blanco.png")
+        header.querySelector(".app-brand img").setAttribute("src", "./assets/img/Logo Blanco cut.png")
     }
 })
 

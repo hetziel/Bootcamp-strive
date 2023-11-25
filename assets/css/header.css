@@ -80,8 +80,7 @@
 @media (max-width: 767px) {
 
     #app-header {
-        padding-left: 0;
-        height: 100px;
+        height: 110px;
         top: 30px;
     }
 
@@ -135,11 +134,7 @@
 @media (min-width: 768px) {
     #app-header {
         padding-top: 1rem;
-        padding-left: 1.5rem;
-        padding-right: 5rem;
-    }
-
-    #app-header[home] {
+        padding-left: 6rem;
         padding-right: 6rem;
     }
 

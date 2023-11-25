@@ -39,7 +39,7 @@ nav+section .container {
 }
 
 .app-brand img {
-    width: 185px;
+    width: 100px;
     height: 100%;
     object-fit: cover;
 }
@@ -84,7 +84,7 @@ nav+section .container {
 #app-header .nav-link,
 #app-footer a {
     color: white;
-    font-family: var(--font-2);
+    font-family: var(--font-2-regular);
     transition: 0.3s;
     text-decoration: none;
 }

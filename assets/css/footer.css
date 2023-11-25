@@ -44,9 +44,14 @@
 }
 
 .app-quick-links li {
-    font-family: var(--font-2-regular);
     position: relative;
     margin-bottom: 1rem;
+}
+.app-quick-links li a{
+    vertical-align: 3px;
+}
+.app-quick-links li::marker {
+    font-size: 24px;
 }
 
 .app-quick-links[detail] span {
@@ -65,7 +70,7 @@
 #app-footer .app-credits {
     background-color: #000;
     margin-top: 2rem;
-    padding: 1rem;
+    padding: .5rem 2rem;
     color: #fff;
 }
 
@@ -75,7 +80,7 @@
 }
 
 #app-footer .app-credits .app-copyright {
-    font-size: 10px;
+    font-size: 14px;
     width: 100%;
 }
 
