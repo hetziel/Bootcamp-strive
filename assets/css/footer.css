@@ -47,16 +47,15 @@
     position: relative;
     margin-bottom: 1rem;
 }
-.app-quick-links li a{
+
+.app-quick-links li a {
     vertical-align: 3px;
 }
+
 .app-quick-links li::marker {
     font-size: 24px;
 }
 
-.app-quick-links[detail]{
-    margin-left: 5rem;
-}
 .app-quick-links[detail] span {
     padding-left: 4px;
 }
@@ -103,6 +102,12 @@
 
     .app-quick-links [x-icon] {
         display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .app-quick-links[detail] {
+        margin-left: 5rem;
     }
 }
 
